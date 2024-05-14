@@ -30,3 +30,40 @@ a {
   text-decoration: none;
   font-family: sans-serif;
 }
+
+/* Main Box 1 */
+.main-box-1 {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 70px 100px;
+}
+
+.main-box-1__main-txt {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.main-box-1__sub-txt {
+  color: #bdc1c7;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-bottom: 8px;
+}
+
+.main-box-1__btn {
+  padding: 8px 25px;
+  font-size: 15px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 5px;
+}
+
+img {
+  height: 250px;
+}
