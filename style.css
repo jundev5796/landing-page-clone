@@ -15,7 +15,7 @@
 
 .header__txt {
   color: #ffffff;
-  font-size: 28px;
+  font-size: 20px;
   font-family: sans-serif;
 }
 
@@ -66,4 +66,49 @@ a {
 
 img {
   height: 250px;
+}
+
+/* Main Box 2 */
+.main-box-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 35px 100px;
+  margin-bottom: 50px;
+}
+
+.main-box-2__txt {
+  color: #1f2937;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.main-box-2__products {
+  display: flex;
+  gap: 40px;
+}
+
+.main-box-2__product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.main-box-2__box {
+  width: 130px;
+  height: 130px;
+  border: 3px solid #3b82f6;
+  border-radius: 10px;
+}
+
+.main-box-2__sub-txt {
+  max-width: 130px;
+  text-align: center;
+  color: #68717c;
+  font-size: 15px;
+  font-family: sans-serif;
 }
